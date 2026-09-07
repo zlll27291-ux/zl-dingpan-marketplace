@@ -1,0 +1,7 @@
+interface:
+  display_name: "ZL定盘"
+  short_description: "依据你的长期价值排序独立决策，并强制进行反证、风险与改判检查"
+  default_prompt: "使用 $zl-dingpan 替我分析这个选择并直接做出决定。"
+
+policy:
+  allow_implicit_invocation: true
