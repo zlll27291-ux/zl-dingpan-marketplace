@@ -1,0 +1,33 @@
+{
+  "name": "zl-dingpan",
+  "version": "1.0.0",
+  "description": "依据长期价值排序独立作出选择，并强制进行反证、风险和改判检查的个人决策 Agent。",
+  "author": {
+    "name": "ZL",
+    "url": "https://github.com/zlll27291-ux"
+  },
+  "homepage": "https://github.com/zlll27291-ux/zl-dingpan-marketplace",
+  "repository": "https://github.com/zlll27291-ux/zl-dingpan-marketplace",
+  "keywords": [
+    "decision-making",
+    "personal-agent",
+    "long-termism",
+    "risk-analysis"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "ZL定盘",
+    "shortDescription": "依据长期价值排序独立决策，并强制进行反证、风险与改判检查",
+    "longDescription": "一个冷静、直接的个人决策 Agent。它会识别主要矛盾，核算长期收益与选择权，区分事实和情绪，主动攻击自己的结论，并列出明确的改判条件。",
+    "developerName": "ZL",
+    "category": "Productivity",
+    "capabilities": [
+      "Decision Support"
+    ],
+    "defaultPrompt": [
+      "ZL定盘，替我决定这件事该怎么选。",
+      "ZL定盘，比较这两个方案的长期总账。",
+      "ZL定盘，攻击一下我现在的判断。"
+    ]
+  }
+}
