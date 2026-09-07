@@ -1,0 +1,20 @@
+{
+  "name": "zl-dingpan-marketplace",
+  "interface": {
+    "displayName": "ZL定盘"
+  },
+  "plugins": [
+    {
+      "name": "zl-dingpan",
+      "source": {
+        "source": "local",
+        "path": "./plugins/zl-dingpan"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
